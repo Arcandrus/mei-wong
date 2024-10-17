@@ -37,3 +37,15 @@ h1, h2 {
 #contact {
   background-color: white;
 }
+
+/* Hero Section */
+
+#hero {
+  min-height: 500px;
+  background-color: #dbdcde;
+  background-image: url("../images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  padding: 5% 7%;
+}
