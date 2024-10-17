@@ -22,6 +22,17 @@ h1, h2 {
 .sharp-corners, .sharp-corners * {
   border-radius: 0;
 }
+
+.bg-blue {
+  border-color: #1f7798;
+  background-color: #1f7798;
+}
+
+.bg-blue:hover {
+  border-color: #1d6d8a;
+  background-color: #1d6d8a;
+}
+
 /* About */
 
 #about {
