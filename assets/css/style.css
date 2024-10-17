@@ -32,10 +32,33 @@ h1, h2 {
   padding-bottom: 30px;
 }
 
+#portfolio .card-title {
+  color: #1f7798;
+  font-size: 1.3rem;
+}
+
+#portfolio .btn-outline-dark:hover {
+  background-color: #184f63;
+}
+
+#portfolio .card-text {
+  min-height: 120px;
+}
+
+@media screen and (min-width: 1200px) {
+  #portfolio .card-text {
+    min-height: auto;
+  }
+}
+
 /* Contact */
 
 #contact {
   background-color: white;
+}
+
+#contact .row {
+  padding-bottom: 20px;
 }
 
 /* Hero Section */
